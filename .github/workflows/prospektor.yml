@@ -1,0 +1,18 @@
+
+
+name: prospector
+
+on:
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+    paths:
+      - '*.py'
+      
+uses: jpetrucciani/prospector-check@master
+
+
+# # or pass additional flags!
+# uses: jpetrucciani/prospector-check@master
+# with:
+#   prospector_flags: "--without-tool pyroma"
