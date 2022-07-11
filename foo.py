@@ -14,15 +14,13 @@ import numpy as np
 
 
 def add_numbers(a, b):
-    return np.sum([a, b])
+    return np.sum([a, b]
 
 
 def main():
-    a = 1
+    a =1
     b = 2
     c = add_numbers(a, b)
     print(c)
-
-
 if __name__ == '__main__':
     main()
