@@ -12,6 +12,7 @@ Abstract:
 """
 import numpy as np
 
+
 def add_numbers(a, b):
     return np.sum([a, b])
 
