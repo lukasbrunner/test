@@ -9,6 +9,9 @@ permissions:
 
 jobs:
   codacy-analysis-cli:
+    permissions:
+      contents: read
+      security-events: write
     name: Codacy Analysis CLI
     runs-on: ubuntu-latest
     steps:
